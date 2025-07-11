@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name" translatable="false">Revenge Manager</string>
+    <string name="app_name" translatable="false">NotRevenge Manager</string>
 
     <string name="cd_library_author">Author: %1$s</string>
     <string name="cd_library_license">License: %1$s</string>
@@ -148,12 +148,12 @@
     <string name="settings_debuggable">Debuggable</string>
     <string name="settings_debuggable_description">Enable debuggable flag</string>
     <string name="settings_allow_downgrade">Allow downgrading</string>
-    <string name="settings_allow_downgrade_description">Bypass downgrade check by Revenge Manager, useful if your device already allows downgrading through root</string>
+    <string name="settings_allow_downgrade_description">Bypass downgrade check by NotRevenge Manager, useful if your device already allows downgrading through root</string>
 
     <string name="settings_logs_alternate_lines">Alternate lines</string>
     <string name="settings_logs_line_wrap">Wrap lines</string>
 
-    <string name="update_description">Revenge Manager %1$s is available!</string>
+    <string name="update_description">NotRevenge Manager %1$s is available!</string>
 
     <string name="channel_stable">Stable</string>
     <string name="channel_beta">Beta</string>
