@@ -33,7 +33,7 @@
    </a>
 </p>
 
-# 💊 Revenge Manager
+# 💊 NotRevenge Manager
 
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/revenge-mod/revenge-manager/release.yml)
 ![Open Software License 3](https://img.shields.io/badge/License-OSL%20v3-yellow.svg)
@@ -42,12 +42,12 @@ Application to use Revenge on Android.
 
 ## ❓ About
 
-Revenge Manager is an application that installs and updates [Revenge](https://github.com/revenge-mod/revenge-bundle),
+NotRevenge Manager is an application that installs and updates [Revenge](https://github.com/revenge-mod/revenge-bundle),
 a modification for Discord.
 
 ## 💪 Features
 
-Some of the features Revenge Manager provides are:
+Some of the features NotRevenge Manager provides are:
 
 - 📲 **Install**: Download Discord and install Revenge on it
 - 🔁 **Update**: Update Revenge to the latest version
@@ -56,25 +56,25 @@ Some of the features Revenge Manager provides are:
 
 ## 🔽 Download
 
-You can download the most recent version of Revenge Manager from
+You can download the most recent version of NotRevenge Manager from
 [here](https://github.com/revenge-mod/revenge-manager/releases/latest).  
-Learn how to use Revenge Manager by following the [documentation](/docs).
+Learn how to use NotRevenge Manager by following the [documentation](/docs).
 
 ## 📚 Everything else
 
 ### 📙 Contributing
 
-Thank you for considering contributing to Revenge Manager.
+Thank you for considering contributing to NotRevenge Manager.
 You can find the contribution guidelines [here](CONTRIBUTING.md).
 
 ### 🛠️ Building
 
-To build a Revenge Manager, you can follow the [documentation](/docs).
+To build a NotRevenge Manager, you can follow the [documentation](/docs).
 
 ### 📃 Documentation
 
-You can find the documentation of Revenge Manager [here](/docs).
+You can find the documentation of NotRevenge Manager [here](/docs).
 
 ## 📜 Licence
 
-Revenge Manager is licensed under the OSLv3 license. Please see the [license file](LICENSE) for more information.
+NotRevenge Manager is licensed under the OSLv3 license. Please see the [license file](LICENSE) for more information.

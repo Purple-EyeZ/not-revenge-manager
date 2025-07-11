@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Revenge Manager feature request
+        # NotRevenge Manager feature request
 
         Before creating a new feature request, please keep the following in mind:
 
