@@ -23,6 +23,16 @@
     <string name="msg_download_failed">Download failed</string>
     <string name="msg_download_verify_failed">Could not verify downloaded file, check logs for more details</string>
     <string name="msg_copied">Copied to clipboard</string>
+    <string name="msg_keystore_not_found">Keystore not found. Install a patched app first to generate one.</string>
+    <string name="msg_keystore_exported">Keystore exported successfully.</string>
+    <string name="msg_keystore_export_failed">Failed to export keystore.</string>
+    <string name="msg_keystore_imported_restart">Keystore imported successfully. Please restart the manager.</string>
+    <string name="msg_keystore_import_failed">Failed to import keystore.</string>
+    <string name="msg_keystore_regenerated">Keystore regenerated successfully.</string>
+    <string name="msg_keystore_regenerate_failed">Failed to regenerate keystore.</string>
+
+    <string name="warning_regenerate_keystore">
+    A new signing key will be generated. To update an app already installed with a different key, you’ll need to uninstall it first. This requires a restart. Continue?</string>
 
     <string name="group_download">Download APKs</string>
     <string name="group_patch">Patching</string>
@@ -63,6 +73,7 @@
     <string name="action_copy_logs">Copy logs</string>
     <string name="action_clear_cache">Clear cache</string>
     <string name="action_confirm">Confirm</string>
+    <string name="action_close_app">Close App</string>
     <string name="action_start_update">Start update</string>
     <string name="action_install">Install</string>
     <string name="action_update">Update</string>
@@ -104,6 +115,7 @@
     <string name="title_logs">Logs</string>
     <string name="title_os_libraries">Open source libraries</string>
     <string name="title_libraries">Libraries</string>
+    <string name="title_restart_required">Restart Required</string>
 
     <string name="theme_system">System</string>
     <string name="theme_light">Light</string>
@@ -137,6 +149,12 @@
     <string name="settings_mirror">Download mirror</string>
     <string name="settings_auto_clear_cache">Clear cache automatically</string>
     <string name="settings_auto_clear_cache_description">Clears cache when Discord gets an update</string>
+    <string name="settings_export_keystore_title">Export Keystore</string>
+    <string name="settings_export_keystore_summary">Save the app signing key to a file for backup.</string>
+    <string name="settings_import_keystore_title">Import Keystore</string>
+    <string name="settings_import_keystore_summary">Restore a previously saved signing key. Requires app restart.</string>
+    <string name="settings_regenerate_keystore_title">Regenerate Keystore</string>
+    <string name="settings_regenerate_keystore_summary">Delete the current signing key and create a new one. Requires app restart.</string>
 
     <string name="settings_developer">Developer only</string>
     <string name="settings_developer_description">These settings may break things if used improperly</string>

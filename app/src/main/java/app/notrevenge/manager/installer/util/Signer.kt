@@ -30,17 +30,30 @@ object Signer : KoinComponent {
     private val cacheDir = context.cacheDir
     private val filesDir = context.filesDir
 
-    val keyStore: File by lazy {
-        val ks = filesDir.resolve("ks.keystore")
-        migrate(cacheDir, filesDir)
-        migrate(Constants.MOD_DIR, filesDir)
-        ks.also {
-            if (!it.exists()) {
-                it.createNewFile()
-                newKeystore(it)
+    private var _keyStore: File? = null
+    val keyStore: File
+        get() {
+            var ks = _keyStore
+            if (ks == null) {
+                ks = filesDir.resolve("ks.keystore")
+                migrate(cacheDir, filesDir)
+                migrate(Constants.MOD_DIR, filesDir)
+                if (!ks.exists()) {
+                    ks.createNewFile()
+                    newKeystore(ks)
+                }
+                _keyStore = ks
             }
+            return ks
         }
-        ks
+
+    fun regenerate() {
+        val ksFile = filesDir.resolve("ks.keystore")
+        if (ksFile.exists()) {
+            ksFile.delete()
+        }
+        _keyStore = null
+        keyStore
     }
 
     private val signerConfig: ApkSigner.SignerConfig by lazy {
