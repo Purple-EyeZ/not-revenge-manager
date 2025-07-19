@@ -1,3 +1,17 @@
+# [1.1.0-dev.1](https://github.com/Purple-EyeZ/not-revenge-manager/compare/v1.0.1-dev.1...v1.1.0-dev.1) (2025-07-12)
+
+
+### Features
+
+* Add keystore management features ([c772bec](https://github.com/Purple-EyeZ/not-revenge-manager/commit/c772becaeeb0927dfe8f91eb1290c5837c3685cd))
+
+## [1.0.1-dev.1](https://github.com/Purple-EyeZ/not-revenge-manager/compare/v1.0.0...v1.0.1-dev.1) (2025-07-12)
+
+
+### Bug Fixes
+
+* Remove developer check for log viewer access ([fb31d6a](https://github.com/Purple-EyeZ/not-revenge-manager/commit/fb31d6ad2300f633d65d2e59eac54c64b2247a47))
+
 # 1.0.0 (2025-07-11)
 
 

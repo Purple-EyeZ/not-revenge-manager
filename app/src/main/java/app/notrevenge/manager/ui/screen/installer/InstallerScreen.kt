@@ -203,7 +203,7 @@ class InstallerScreen(
                 }
             },
             actions = {
-                if (prefs.isDeveloper && viewModel.runner.completed) {
+                if (viewModel.runner.completed) {
                     IconButton(onClick = { nav.push(LogViewerScreen(viewModel.runner.logger.logs.toImmutableList())) }) {
                         Icon(
                             imageVector = Icons.Outlined.Article,
